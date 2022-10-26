@@ -17,9 +17,9 @@ function yellow {
     printf "${YELLOW}$@${NC}\n"
 }
 
-curl -s https://raw.githubusercontent.com/jschmid1/gopro_as_webcam_on_linux/master/gopro -o /usr/local/sbin/gopro
+curl -s https://raw.githubusercontent.com/Clavinova123/gopro_as_webcam_on_linux/master/gopro -o /home/deck/cnb/local/sbin/gopro
 
-chmod +x /usr/local/sbin/gopro
+chmod +x /home/deck/cnb/local/sbin/gopro
 
 yellow "**********************"
 printf "\n\n"
